@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 45;
+}
+
+.header {
+    padding: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 40px;
+}
+
+.text:last-child {
+    margin: 0;
+}
+
+.button2 {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button2:hover {
+    background-color: transparent;
+    color: black;
+    transition: 0.5s;
+}
+
+.button1 {
+    text-decoration: none;
+    text-align: none;
+    background-color: transparent;
+    color: black;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
